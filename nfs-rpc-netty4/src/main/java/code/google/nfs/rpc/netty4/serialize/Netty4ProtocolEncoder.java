@@ -6,7 +6,6 @@ import io.netty.handler.codec.MessageToByteEncoder;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import code.google.nfs.rpc.ResponseWrapper;
 import code.google.nfs.rpc.protocol.ProtocolUtils;
 /**
  * nfs-rpc
@@ -20,6 +19,7 @@ import code.google.nfs.rpc.protocol.ProtocolUtils;
  * @author <a href="mailto:coderplay@gmail.com">Min Zhou</a>
  */
 public class Netty4ProtocolEncoder extends MessageToByteEncoder<Object> {
+	@SuppressWarnings("unused")
 	private static final Log LOGGER = LogFactory.getLog(Netty4ProtocolEncoder.class);
 	@Override
 	protected void encode(ChannelHandlerContext ctx, Object msg, ByteBuf out)

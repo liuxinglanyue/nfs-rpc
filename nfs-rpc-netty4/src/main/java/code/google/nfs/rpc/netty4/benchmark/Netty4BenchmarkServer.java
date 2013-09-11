@@ -40,7 +40,7 @@ public class Netty4BenchmarkServer extends AbstractBenchmarkServer {
 	
 	private int concurrency = 1;
 
-	public void run(String[] args) throws Exception {
+	public void run(String[] args) throws Exception { // $1 12200 100 100 > $2 2>&1 &
 		if (args == null || args.length != 3) {
 			throw new IllegalArgumentException(
 					"must give three args: listenPort | maxThreads | responseSize");

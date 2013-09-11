@@ -7,7 +7,6 @@ package code.google.nfs.rpc.netty4.server;
  *   http://code.google.com/p/nfs-rpc (c) 2011
  */
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.nio.NioEventLoopGroup;

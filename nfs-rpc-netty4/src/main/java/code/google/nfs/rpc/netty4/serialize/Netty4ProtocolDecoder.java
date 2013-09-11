@@ -22,6 +22,7 @@ import code.google.nfs.rpc.protocol.ProtocolUtils;
  * @author <a href="mailto:coderplay@gmail.com">Min Zhou</a>
  */
 public class Netty4ProtocolDecoder extends ByteToMessageDecoder {
+	@SuppressWarnings("unused")
 	private static final Log LOGGER = LogFactory.getLog(Netty4ProtocolDecoder.class);
 
 	@Override
